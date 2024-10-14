@@ -1,8 +1,7 @@
 name: third_pipeline
 on: 
   schedule:
-    - cron: "5 * * 10 1-5"
-  
+    - cron: "5 * * * 1-5"
   
 jobs:
   job1:
