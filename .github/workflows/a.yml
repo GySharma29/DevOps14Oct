@@ -6,5 +6,14 @@ jobs:
     steps:
       - name: step1
         run: echo "Hello, commit happened successfully"
+      - name: step2
+        run: echo "step2"
+      - name: step3
+        run: |
+          echo "hello from step3"
+          hostname
+          pwd
+          id
+         
       
   
